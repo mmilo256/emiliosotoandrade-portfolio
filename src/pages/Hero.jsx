@@ -28,7 +28,7 @@ function Hero() {
           </span>
         </h1>
 
-        <p className=" text-2xl md:text-3xl font-light text-opacity-80 text-green-200">
+        <p className=" text-2xl md:text-3xl text-center font-light text-opacity-80 text-green-200">
           {data.career}
         </p>
         <div className="py-8 w-full md:w-[30rem] flex flex-col md:flex-row gap-6">
