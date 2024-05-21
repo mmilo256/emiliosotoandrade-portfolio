@@ -46,13 +46,15 @@ function Navbar() {
     <>
       <nav
         className={`fixed z-50 transition-all bg-opacity-100 duration-200 w-full bg-slate-900 ${
-          scrollY > 150 ? "md:bg-opacity-90" : "md:bg-opacity-0"
+          scrollY > 150 ? "md:bg-opacity-100" : "md:bg-opacity-0"
         }`}
       >
-        <div className="container m-auto px-2 md:px-0 flex h-16 items-center justify-between">
-          <Logo />
+        <div className="container m-auto px-2 md:px-0 grid grid-cols-2 md:grid-cols-6 h-16">
+          <div className=" flex items-center">
+            <Logo />
+          </div>
           {/* Navegación en pantallas grandes */}
-          <ul className="hidden md:flex text-mainwhite">
+          <ul className="hidden col-span-4 md:items-center md:justify-center md:flex text-mainwhite">
             {navigation.map((item) => (
               <li
                 className="hover:text-primary py-2 px-4 active:text-primary transition-all hover:cursor-pointer duration-200 hover:scale-110 active:scale-110"
@@ -62,10 +64,10 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <div className="hidden md:flex gap-8">
+          <div className="hidden md:flex md:items-center justify-end">
             <Socials />
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden flex justify-end text-right">
             <MenuToggler isOpen={isOpen} onClick={handleToggleMenu} />
           </div>
         </div>
@@ -74,7 +76,7 @@ function Navbar() {
         /** Navegación en pantallas pequeñas */
         isOpen && (
           <ul
-            className={`md:hidden overflow-hidden fixed z-50 bg-slate-950 w-full top-16 text-mainwhite gap-5`}
+            className={`md:hidden overflow-hidden fixed z-50 bg-slate-900 w-full top-16 text-mainwhite gap-5`}
           >
             {navigation.map((item) => (
               <li key={item.label}>
