@@ -1,0 +1,110 @@
+{
+  "name": "Emilio",
+  "lastName": "Soto Andrade",
+  "career": "Ingeniero Informático y Desarrollador Web",
+  "email": "emiliosotoandrade256@gmail.com",
+  "description": "Soy Ingeniero Informático enfocado en Desarrollo Web. Tengo experiencia con React, NextJS, Tailwind y Django trabajando con equipos de desarrollo, creando proyectos y realizando cursos. También manejo Git y GitHub para el control de versiones y trabajo en equipo.",
+  "resume": "/files/EmilioSotoAndrade_CV.pdf",
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/emilio-soto-andrade/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mmilo256"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCpEgocar6CIvq0NWVWIMGow"
+    }
+  ],
+  "projects": [
+    {
+      "category": "Frontend",
+      "title": "SmartSell POS",
+      "description": "Software ERP y Punto de Venta de la empresa BlackNexus para la gestión de negocios de cualquier tipo.",
+      "techs": ["NextJS", "TailwindCSS", "Django", "DRF", "PostgreSQL"],
+      "img": "/projects/smartsell.png",
+      "links": {
+        "repo": "https://github.com/Black-Nexus-ai/SmartSell-Frontend",
+        "preview": "https://smart-sell-frontend.vercel.app "
+      }
+    },
+    {
+      "category": "FullStack",
+      "title": "eventApp: Registro y visualización de eventos",
+      "description": "App para registrar y visualizar eventos y fechas importantes. Hecha con React para el frontend y Django para el backend y la API REST.",
+      "techs": ["React", "Bootstrap", "Django", "DRF", "SQLite"],
+      "img": "/projects/eventapp.png",
+      "links": {
+        "repo": "https://github.com/mmilo256/visualizador-eventos",
+        "preview": "https://www.youtube.com/watch?v=utM0b_Tz4NM&ab_channel=EmilioSotoAndrade"
+      }
+    }
+  ],
+  "techs": {
+    "frontend": [
+      {
+        "name": "HTML",
+        "img": "/logos/html.svg"
+      },
+      {
+        "name": "CSS",
+        "img": "/logos/css.svg"
+      },
+      {
+        "name": "TailwindCSS",
+        "img": "/logos/tailwind.png"
+      },
+      {
+        "name": "JavaScript",
+        "img": "/logos/js.svg"
+      },
+      {
+        "name": "TypeScript",
+        "img": "/logos/typescript.png"
+      },
+      {
+        "name": "React",
+        "img": "/logos/react.png"
+      },
+      {
+        "name": "NextJS",
+        "img": "/logos/nextjs.svg"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Python",
+        "img": "/logos/python.png"
+      },
+      {
+        "name": "Django",
+        "img": "/logos/django.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "img": "/logos/postgresql.png"
+      },
+      {
+        "name": "MySQL",
+        "img": "/logos/mysql.png"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "img": "/logos/git.png"
+      },
+      {
+        "name": "GitHub",
+        "img": "/logos/github.png"
+      },
+      {
+        "name": "Figma",
+        "img": "/logos/figma.png"
+      }
+    ]
+  }
+}
